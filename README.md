@@ -78,7 +78,7 @@ Postgres
 ### Related services (run separately)
 This repo only starts infrastructure. The actual services run separately:
 
-- order-service
+- order-service: https://github.com/florianciuculescu/order-service
 
   - exposes **POST /api/orders**
   - stores orders in Postgres
