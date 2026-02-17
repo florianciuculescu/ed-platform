@@ -83,6 +83,6 @@ This repo only starts infrastructure. The actual services run separately:
   - exposes **POST /api/orders**
   - stores orders in Postgres
   - publishes **OrderCreated** events from Kafka
-- payment-service
+- payment-service: https://github.com/florianciuculescu/payment-service
     
   - consumes **OrderCreated** events from Kafka
